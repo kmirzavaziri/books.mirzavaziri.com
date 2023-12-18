@@ -1,0 +1,124 @@
+:root {
+    --primary: #ffdaa6;
+    --secondary: #ffffff;
+    --bg: #001f3e;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: url('img/bg.jpg') no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: "IRANYekanX VF", tahoma, serif;
+
+    color: var(--secondary);
+}
+
+h2 {
+    color: var(--primary);
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 2rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 1rem 2rem;
+}
+
+.dir-rtl {
+    direction: rtl;
+    text-align: right;
+}
+
+.head-title {
+    margin: 5rem 0 0 2rem;
+}
+
+.foot-title {
+    margin: 0 0 0 2rem;
+}
+
+.h-detail {
+    font-weight: 200;
+}
+
+.container {
+    padding: 2rem;
+
+    backdrop-filter: blur(10px);
+    background-color: #a8d3ff21;
+}
+
+.section {
+    width: 400px;
+    border-radius: 40px 40px 40px 0;
+    margin: 20px;
+    padding: 10px;
+    background: var(--bg);
+}
+
+.section-title-wrapper {
+    flex-grow: 1;
+}
+
+.section-title {
+    margin: 10px;
+}
+
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--secondary);
+    color: var(--bg);
+    text-decoration: none;
+
+    border-radius: 1999px;
+    width: 3rem;
+    height: 3rem;
+}
+
+.audio-player {
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.virgo {
+    height: 10rem;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .section {
+        font-size: 2rem;
+
+        width: 500px;
+    }
+
+    .section-title {
+        margin: 25px;
+    }
+
+    .download {
+        width: 5rem;
+        height: 5rem;
+    }
+}

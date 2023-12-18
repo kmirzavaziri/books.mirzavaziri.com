@@ -1,0 +1,63 @@
+title:
+  fa: صورت فلکی ششم
+  en: Virgo
+author:
+  fa: هادی کرباسفروشان
+  en: Hadi Karbasfrooshan
+narrator:
+  fa: کیمیا نارنجانی
+  en: Kimia Naranjani
+
+pdf_download_url: assets/pdf/virgo.pdf
+
+sections:
+  - title:
+      fa: قسمت اول
+      en: First Part
+      fr: Première Partie
+    audio_url: assets/audio/1.mp3
+  - title:
+      fa: قسمت دوم
+      en: Second Part
+      fr: Deuxième Partie
+    audio_url: assets/audio/2.mp3
+  - title:
+      fa: قسمت سوم
+      en: Third Part
+      fr: Troisième Partie
+    audio_url: assets/audio/3.mp3
+  - title:
+      fa: قسمت چهارم
+      en: Fourth Part
+      fr: Quatrième Partie
+    audio_url: assets/audio/4.mp3
+  - title:
+      fa: قسمت پنجم
+      en: Fifth Part
+      fr: Cinquième Partie
+    audio_url: assets/audio/5.mp3
+  - title:
+      fa: قسمت ششم
+      en: Sixth Part
+      fr: Sixième Partie
+    audio_url: assets/audio/6.mp3
+  - title:
+      fa: قسمت هفتم
+      en: Seventh Part
+      fr: Septième Partie
+    audio_url: assets/audio/7.mp3
+  - title:
+      fa: قسمت هشتم
+      en: Eighth Part
+      fr: Huitième Partie
+    audio_url: assets/audio/8.mp3
+  - title:
+      fa: قسمت نهم
+      en: Ninth Part
+      fr: Neuvième Partie
+    audio_url: assets/audio/9.mp3
+  - title:
+      fa: قسمت دهم
+      en: Tenth Part
+      fr: Dixième Partie
+    audio_url: assets/audio/10.mp3

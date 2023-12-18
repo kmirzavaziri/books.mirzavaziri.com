@@ -1,0 +1,19 @@
+- hosts: all
+  vars:
+    - path: "/var/www/books.mirzavaziri.com"
+  tasks:
+    - name: remove old directory
+      file:
+        path: "{{ path }}"
+        state: absent
+
+    - name: create directory
+      file:
+        path: "{{ path }}"
+        state: directory
+
+    - name: copy public
+      copy:
+        src: "{{ playbook_dir }}/public/"
+        dest: "{{ path }}/"
+        force: true
