@@ -1,0 +1,5 @@
+@font-face {
+    font-family: "iranyekanx VF";
+    src: url("iranyekanxvf/iranyekanxvf.woff") format("woff-variations"), url("iranyekanxvf/iranyekanxvf.woff") format("woff"), url("iranyekanxvf/iranyekanxvf.woff2") format("woff2");
+    font-display: fallback
+}

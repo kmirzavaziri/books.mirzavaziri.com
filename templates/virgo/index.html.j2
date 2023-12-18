@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Virgo</title>
+
+    <link href="assets/font/style.css" rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+</head>
+<body>
+<h1 id="title">{{ info.title }}</h1>
+<h2 id="subtitle">{{ info.subtitle }}</h2>
+<div class="container">
+    <ul class="sections">
+        {% for section in info.sections %}
+            <li class="section">
+                <span class="play" onclick="playAudio('{{ section.audio_url }}')"><i class="fas fa-play"></i></span>
+                {{ section.title.fa }} / {{ section.title.en }} / {{ section.title.fr }}
+            </li>
+        {% endfor %}
+    </ul>
+</div>
+{#        <div class="table-of-contents">#}
+{#            <h2>Table of Contents</h2>#}
+{#        </div>#}
+{#        <div class="audio-player">#}
+{#            <audio id="audioPlayer" controls>#}
+{#                Your browser does not support the audio element.#}
+{#            </audio>#}
+{#        </div>#}
+{#        <div class="download-button">#}
+{#            <a href="{{ pdf_download_url }}" download="book.pdf">#}
+{#                <button>Download PDF</button>#}
+{#            </a>#}
+{#        </div>#}
+<script src="https://kit.fontawesome.com/a6e81e2a85.js" crossorigin="anonymous"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
