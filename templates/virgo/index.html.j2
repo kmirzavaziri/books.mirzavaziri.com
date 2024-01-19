@@ -16,13 +16,12 @@
 <div class="container">
     <div class="sections">
         <div class="section">
-            <a class="download" href="{{ pdf_download_url }}" download="virgo.pdf">
+            <a class="download" href="{{ info.pdf_download_url }}" download="Virgo.HadyKarbasfrooshan.pdf" target="_blank">
                 <i class="fa-solid fa-download fa-xl"></i>
             </a>
             <div class="section-title-wrapper">
                 <p class="section-title dir-rtl">دانلود PDF</p>
                 <p class="section-title">Download PDF</p>
-                <p class="section-title">Télécharger le PDF</p>
             </div>
         </div>
         {% for section in info.sections %}
@@ -33,9 +32,8 @@
                     </audio>
                 </div>
                 <div class="section-title-wrapper">
-                    <p class="section-title dir-rtl">{{ section.title.fa }}</p>
+                    <p class="section-title dir-rtl">{{ section.title.fa }}</p><br>
                     <p class="section-title">{{ section.title.en }}</p>
-                    <p class="section-title">{{ section.title.fr }}</p>
                 </div>
             </div>
         {% endfor %}
@@ -47,7 +45,7 @@
         <h3>{{ info.author.en }}</h3>
         <h4><span class="h-detail">Narrated By </span>{{ info.narrator.en }}</h4>
     </div>
-    <img class="virgo" src="assets/img/virgo.png">
+{#    <img class="virgo" src="assets/img/virgo.png">#}
 </div>
 <script src="https://kit.fontawesome.com/a6e81e2a85.js" crossorigin="anonymous"></script>
 </body>
